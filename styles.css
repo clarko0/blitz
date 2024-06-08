@@ -1,0 +1,46 @@
+.container {
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 2px;
+    margin-top: 5%;
+    background-image: url(assets/background.jpg);
+
+}
+
+#todolist p {
+    font-size: 20px;
+    word-wrap: break-word;
+
+}
+
+#todolist p:hover button {
+    display: inline-block;
+}
+
+#todolist p button {
+    margin-left: 10px;
+    border-radius: 4px;
+    font-family: monospace;
+    background-color: rgba(255, 178, 102, 1);
+    display: none;
+}
+
+
+html {
+    min-height: 100vh;
+    font-family: monospace;
+    background-color: rgba(255, 178, 102, 0.5);
+}
+
+.UI {
+    background-color: white;
+    width: 90%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 10px;
+    border: solid 1px;
+
+}
